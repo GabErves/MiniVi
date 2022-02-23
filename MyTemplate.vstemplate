@@ -1,0 +1,44 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MiniVi</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MiniVi</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="MiniVi.vcxproj" File="MiniVi.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">MiniVi.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Editor.cpp">Editor.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="NotFoundException.cpp">NotFoundException.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Position.cpp">Position.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="PrecondViolatedExcep.cpp">PrecondViolatedExcep.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="quicksort.cpp">quicksort.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Undo.cpp">Undo.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="BinaryNode.h">BinaryNode.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="BinaryNodeTree.h">BinaryNodeTree.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="BinarySearchTree.h">BinarySearchTree.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="BinaryTreeInterface.h">BinaryTreeInterface.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Editor.h">Editor.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="LinkedList.h">LinkedList.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="LinkedStack.h">LinkedStack.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ListInterface.h">ListInterface.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Node.h">Node.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="NotFoundException.h">NotFoundException.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Position.h">Position.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="PrecondViolatedExcep.h">PrecondViolatedExcep.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="StackInterface.h">StackInterface.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Undo.h">Undo.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="input.txt">input.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="keywords.txt">keywords.txt</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

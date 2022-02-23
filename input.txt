@@ -1,0 +1,7 @@
+Hello!
+This is a keyword: union
+So is New and namespace
+What about struct?
+
+
+
